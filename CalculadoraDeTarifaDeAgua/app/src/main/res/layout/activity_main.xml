@@ -33,7 +33,6 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <!-- Agregamos un EditText para que el usuario ingrese los metros consumidos -->
                     <TextView
                         android:id="@+id/lblMetrosConsumidos"
                         android:layout_width="wrap_content"
@@ -50,7 +49,6 @@
                         android:layout_marginTop="20dp"
                         android:inputType="numberDecimal"/>
 
-                    <!-- Botón para calcular -->
                     <Button
                         android:id="@+id/btnCalcular"
                         android:layout_width="match_parent"
@@ -59,7 +57,6 @@
                         android:layout_marginTop="20dp"
                         android:layout_marginLeft="40dp"/>
 
-                    <!-- TextView para mostrar el resultado -->
                     <TextView
                         android:id="@+id/lblRespuestaMetros"
                         android:layout_width="wrap_content"
@@ -69,8 +66,6 @@
                         android:layout_marginLeft="40dp"/>
 
                 </LinearLayout>
-
-                <!-- Definimos la segunda pestaña aquí -->
 
             </FrameLayout>
 
