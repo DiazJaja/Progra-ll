@@ -52,7 +52,7 @@ public class MainActivity extends Activity {
             }
         });
     }
-
+//
     private void calcularValorAPagar() {
         String metrosStr = txtnumMetros.getText().toString();
 
